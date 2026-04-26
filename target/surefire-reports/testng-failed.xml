@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [UIAutomationSuite]" verbose="0">
+  <test thread-count="3" parallel="tests" name="Execution(failed)" verbose="0">
+    <classes>
+      <class name="tests.Test1">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- tests.Test1 -->
+      <class name="tests.DockerManager">
+        <methods>
+          <include name="runDockerCommandBatchFile"/>
+          <include name="stopDockerTest"/>
+        </methods>
+      </class> <!-- tests.DockerManager -->
+      <class name="tests.Test3">
+        <methods>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- tests.Test3 -->
+      <class name="tests.Test2">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- tests.Test2 -->
+    </classes>
+  </test> <!-- Execution(failed) -->
+</suite> <!-- Failed suite [UIAutomationSuite] -->

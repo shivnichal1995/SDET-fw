@@ -1,0 +1,9 @@
+utils\LoggerUtils.class
+drivers\DriverManager.class
+core\BasePage.class
+config\ConfigManager.class
+utils\JsonUtils.class
+api\BaseAPI.class
+reporting\ReportManager.class
+api\UserAPI.class
+utils\WaitUtils.class

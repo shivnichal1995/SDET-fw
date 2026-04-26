@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-26T17:31:33 IST" name="UIAutomationSuite" finished-at="2026-04-26T17:32:02 IST" duration-ms="28467">
+    <groups>
+    </groups>
+    <test started-at="2026-04-26T17:31:33 IST" name="Execution" finished-at="2026-04-26T17:32:02 IST" duration-ms="28467">
+      <class name="tests.DockerManager">
+        <test-method is-config="true" signature="runDockerCommandBatchFile()[pri:0, instance:tests.DockerManager@783a467b]" started-at="2026-04-26T17:31:21 IST" name="runDockerCommandBatchFile" finished-at="2026-04-26T17:31:33 IST" duration-ms="12121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runDockerCommandBatchFile -->
+        <test-method is-config="true" signature="stopDockerTest()[pri:0, instance:tests.DockerManager@783a467b]" started-at="2026-04-26T17:32:02 IST" name="stopDockerTest" finished-at="2026-04-26T17:32:12 IST" duration-ms="10030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDockerTest -->
+      </class> <!-- tests.DockerManager -->
+      <class name="tests.Test2">
+        <test-method signature="test2()[pri:0, instance:tests.Test2@70e9c95d]" started-at="2026-04-26T17:31:45 IST" name="test2" finished-at="2026-04-26T17:31:54 IST" duration-ms="9736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- tests.Test2 -->
+      <class name="tests.Test1">
+        <test-method signature="test1()[pri:0, instance:tests.Test1@2e3967ea]" started-at="2026-04-26T17:31:33 IST" name="test1" finished-at="2026-04-26T17:31:45 IST" duration-ms="11344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- tests.Test1 -->
+      <class name="tests.Test3">
+        <test-method signature="test3()[pri:0, instance:tests.Test3@4d5650ae]" started-at="2026-04-26T17:31:54 IST" name="test3" finished-at="2026-04-26T17:32:02 IST" duration-ms="7185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- tests.Test3 -->
+    </test> <!-- Execution -->
+  </suite> <!-- UIAutomationSuite -->
+</testng-results>

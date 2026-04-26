@@ -1,0 +1,42 @@
+2026-03-11 21:25:33 [TestNG-tests-1] INFO  utils.LoggerUtils - Test Suite Started: Login UI Tests
+2026-03-11 21:25:33 [TestNG-tests-1] ERROR utils.LoggerUtils - Test Failed: loginTest
+org.testng.TestNGException: 
+Method public void tests.TestLogin.loginTest() requires a @DataProvider named : loginData
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:532) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:769) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:959) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.12.0.jar:7.12.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:744) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.12.0.jar:7.12.0]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1623) [?:?]
+2026-03-11 21:25:33 [TestNG-tests-1] INFO  utils.LoggerUtils - Test Suite Finished: Login UI Tests
+2026-03-11 21:25:54 [TestNG-tests-1] INFO  utils.LoggerUtils - Test Suite Started: Login UI Tests
+2026-03-11 21:25:54 [TestNG-tests-1] INFO  utils.LoggerUtils - Starting Test: loginTest
+2026-03-11 21:25:54 [TestNG-tests-1] WARN  utils.LoggerUtils - Test Skipped: loginTest
+2026-03-11 21:25:54 [TestNG-tests-1] INFO  utils.LoggerUtils - Test Suite Finished: Login UI Tests
+2026-03-11 21:28:00 [TestNG-tests-1] INFO  utils.LoggerUtils - Test Suite Started: Login UI Tests
+2026-03-11 21:28:07 [TestNG-tests-1] INFO  utils.LoggerUtils - Starting Test: loginTest
+2026-03-11 21:28:08 [TestNG-tests-1] INFO  utils.LoggerUtils - Clicked: By.xpath: //a[text()='Form Authentication']
+2026-03-11 21:28:08 [TestNG-tests-1] INFO  utils.LoggerUtils - Running TestCase: 001
+2026-03-11 21:28:09 [TestNG-tests-1] INFO  utils.LoggerUtils - Entered username: admin
+2026-03-11 21:28:09 [TestNG-tests-1] INFO  utils.LoggerUtils - Entered password: admin123
+2026-03-11 21:28:09 [TestNG-tests-1] INFO  utils.LoggerUtils - Clicked login button
+2026-03-11 21:28:09 [TestNG-tests-1] INFO  utils.LoggerUtils - Test Passed: loginTest
+2026-03-11 21:28:09 [TestNG-tests-1] INFO  utils.LoggerUtils - Test Suite Finished: Login UI Tests
+2026-03-11 21:29:58 [main] INFO  utils.LoggerUtils - Clicked: By.xpath: //a[text()='Form Authentication']
+2026-03-11 21:29:58 [main] INFO  utils.LoggerUtils - Running TestCase: 001
+2026-03-11 21:29:59 [main] INFO  utils.LoggerUtils - Entered username: admin
+2026-03-11 21:29:59 [main] INFO  utils.LoggerUtils - Entered password: admin123
+2026-03-11 21:29:59 [main] INFO  utils.LoggerUtils - Clicked login button

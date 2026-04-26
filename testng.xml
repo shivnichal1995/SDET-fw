@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="UIAutomationSuite" parallel="tests" thread-count="3">
+
+    <!-- TestNG Listener for logging, screenshots, Allure/ReportPortal -->
+<!--    <listeners>-->
+<!--        <listener class-name="listeners.TestListener"/>-->
+<!--    </listeners>-->
+
+    <!-- UI Test: only Login test class -->
+    <!--    <test name="Login UI Tests">-->
+    <!--        <classes>-->
+    <!--            <class name="tests.TestLogin"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    <test name="API Tests">-->
+    <!--        <packages>-->
+    <!--            <package name="api_tests"/>-->
+    <!--        </packages>-->
+    <!--    </test>-->
+
+    <test name="Execution">
+        <classes>
+            <class name="tests.DockerManager"/>
+            <class name="tests.Test1"/>
+            <class name="tests.Test2"/>
+            <class name="tests.Test3"/>
+        </classes>
+    </test>
+</suite>

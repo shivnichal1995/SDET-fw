@@ -1,0 +1,17 @@
+[
+  {
+    "testcaseId": "001",
+    "username": "admin",
+    "password": "admin123"
+  },
+  {
+    "testcaseId": "002",
+    "username": "user",
+    "password": "wrongpass"
+  },
+  {
+    "testcaseId": "003",
+    "username": "",
+    "password": ""
+  }
+]
