@@ -1,40 +1,37 @@
 pipeline {
-agent any
+    agent any
 
-```
-tools {
-    // Optional: configure if using Jenkins tool config
-    jdk 'JDK-20'
-    maven 'Maven-3.9'
-}
+    stages {
 
-stages {
-
-    stage('Checkout Code') {
-        steps {
-            // Pull code from Git repo
-            git url: 'https://github.com/shivnichal1995/SDET-fw.git', branch: 'main'
+        stage('Build') {
+            steps {
+                bat 'mvn clean'
+            }
         }
-    }
 
-    stage('Run Selenium Tests') {
-        steps {
-            // Run Maven tests (TestNG/JUnit)
-            bat 'mvn clean test'
-
-            // For Linux agents, use:
-            // sh 'mvn clean test'
+        stage('Deploy') {
+            steps {
+                echo 'Deploying the code'
+            }
         }
+
+        stage('Test') {
+            steps {
+                bat 'mvn test'
+            }
+        }
+
+        stage('Unit Testing') {
+            steps {
+                bat 'mvn compile'
+            }
+        }
+
+        stage('Release') {
+            steps {
+                echo 'Releasing the project'
+            }
+        }
+
     }
-
-}
-
-post {
-    always {
-        // Archive test reports
-        junit 'target/surefire-reports/*.xml'
-    }
-}
-```
-
 }
